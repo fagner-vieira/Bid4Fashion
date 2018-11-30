@@ -1271,7 +1271,7 @@ header#top .nav-header .nav-header-wrapper .nav-header-inner .sticky-logo {
     display: none
 }
 header#top .nav-header .nav-header-wrapper .nav-header-inner .shopby-collections-wrapper {
-    display: inline-block;
+    display: none;
     *display: block;
     zoom: 1;
     height: 40px;
@@ -2654,7 +2654,8 @@ header#top.affix .nav-header .nav-header-wrapper .nav-header-inner .shopby-colle
     color: #fff
 }
 #main-content .mainslideshow-area {
-    padding-right: 0
+    padding-right: 0;
+    padding-left: 0;
 }
 @media (max-width: 767px) {
     #main-content .mainslideshow-area {
