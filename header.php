@@ -52,8 +52,8 @@
 							<div class="left-area">
 								<div class="nav-logo">
 									<div class="logo">
-										<h1><a href="./index1.html"><img src="./assets/images/logo2.png" alt="Aneue - Premium HTML5 Theme"></a></h1>
-										<h1 style="display:none"><a href="./index1.html">Aneue - Premium HTML5 Theme</a></h1>
+										<h1><a href="./index1.html"><img src="./assets/images/logo02.png" alt=""></a></h1>
+										<h1 style="display:none"><a href="./index.php">Bid4Fashion</a></h1>
 									</div>
 								</div>
 							</div>
