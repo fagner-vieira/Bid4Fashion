@@ -9,25 +9,6 @@
 						<div class="blank-area col-lg-2">
 						</div>
 						<div class="mainslideshow-area col-lg-12">
-							<div class="home_hotnews hotnews_wrapper">
-								<div class="hotnews_inner">
-									<div class="news-area">
-										<span class="news-title"><i class="fa fa-caret-right" aria-hidden="true"></i>HOT NEWS:</span>
-										<ul class="news-slider">
-											<li>This block can easily change to any text in Customize Theme, help showing your news</li>
-											<li>Mauris consectetur tempus enim et aliquam sem interdum sit amet, fusce placerat justo sed orci euismod vel egestas sapien.</li>
-											<li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim.</li>								
-										</ul>
-									</div>
-									<div class="fb-area">
-										<div class="fb-button">
-											<a href="https://www.facebook.com/abc" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> connect with facebook</a>
-										</div>
-									</div>
-									<div class="dash-line">
-									</div>
-								</div>
-							</div>
 							<div class="main-slideshow-master">
 								<div id="main-slideshow" class="main-slideshow-wrapper">
 									<div class="main-slideshow-inner">        
