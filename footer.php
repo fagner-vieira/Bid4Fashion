@@ -96,14 +96,14 @@
 							</div>
 							<div class="info_element footer-newsletter col-sm-4">
 								<div class="newsletter-title">
-									<h5>Sign up for Newsletter</h5>
+									<h5>Assine para receber nossas promoções</h5>
 								</div>
 								<div class="newsletter-content">
 									<div class="newsletter-text">
 										Be the first to know about new arrivals, exclusive offers and trend news. Plus, first time subscribers enjoy $15 off their first order.
 									</div>
 									<form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-										<input type="email" value="" placeholder="Put your Email Address here..." name="EMAIL" id="mail"><input type="submit" class="btn newsletter" value="Subscribe" name="subscribe" id="subscribe">
+										<input type="email" value="" placeholder="Digite seu e-mail..." name="EMAIL" id="mail"><input type="submit" class="btn newsletter" value="Assinar" name="subscribe" id="subscribe">
 									</form>
 								</div>
 							</div>
@@ -279,27 +279,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="copy-right-inner">
-							<div class="left-area col-sm-6">
-								<ul class="unstyled">
-									<li>
-									<a href="#"><span>About</span></a>
-									</li>
-									<li>
-									<a href="#"><span>Contact</span></a>
-									</li>
-									<li>
-									<a href="#"><span>Help</span></a>
-									</li>
-									<li>
-									<a href="#"><span>Privacy</span></a>
-									</li>
-									<li>
-									<a href="#"><span>Terms of Service</span></a>
-									</li>
-								</ul>
-							</div>
 							<div class="right-area col-sm-6">
-								 Copyright © 2016 <a href="#" title="">Aneue - Premium HTML5 Theme</a>
+								 Copyright © 2019 <a href="#" title="">Bid4Fashion - Todos os Direitos Reservados.</a>
 							</div>
 						</div>
 					</div>
@@ -309,7 +290,7 @@
 	</footer>
   
 	<!-- Scroll to top -->  
-    <div id="scroll-to-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Scroll to Top" class="off">
+    <div id="scroll-to-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Voltar ao topo" class="off">
 		<i class="fa fa-angle-up"></i>
     </div>
 
