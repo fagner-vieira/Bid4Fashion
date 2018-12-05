@@ -62,150 +62,52 @@
 									<ul class="unstyled">
 										<li class="toolbar-welcome">
 											<div class="support_text">
-												 Welcome to Auene
+												 Bem-vindo a Bid4Fashion
 											</div>
 										</li>
 										<li class="toolbar-customer login-account">
 											<span id="loginButton" class="dropdown-toggle" data-toggle="dropdown">
 											<i class="sub-dropdown1 visible-sm visible-md visible-lg"></i>
 											<i class="sub-dropdown visible-sm visible-md visible-lg"></i>
-											<a href="./login.html" id="customer_login_link">Join or Sign In</a>
+											<a href="./login.html" id="customer_login_link">Criar / entrar</a>
 											</span>
 											<div id="loginBox" class="dropdown-menu text-left">
 												<form method="post" action="./login.html" id="customer_login" accept-charset="UTF-8">
 													<input type="hidden" value="customer_login" name="form_type"><input type="hidden" name="utf8" value="✓">
 													<ul class="control-container customer-accounts list-unstyled">
 														<li class="clearfix">
-														<label for="customer_email_box" class="control-label">Email Address <span class="req">*</span></label>
+														<label for="customer_email_box" class="control-label">E-mail <span class="req">*</span></label>
 														<input type="email" value="" name="customer[email]" id="customer_email_box" class="form-control">
 														</li>
 														<li class="clearfix">
-														<label for="customer_password_box" class="control-label">Password <span class="req">*</span></label>
+														<label for="customer_password_box" class="control-label">Senha <span class="req">*</span></label>
 														<input type="password" value="" name="customer[password]" id="customer_password_box" class="form-control password">
 														</li>
 														<li class="clearfix">
-														<span class="required field">*required field</span>
+														<span class="required field">*Campo obrigatório</span>
 														</li>
 														<li class="clearfix">
-														<a href="./forgot.html"><span class="red">?</span> Forgot your password</a>
+														<a href="./forgot.html"><span class="red">?</span> Esqueceu sua senha</a>
 														</li>
 														<li class="clearfix">
-														<button class="btn btn-1" type="submit">Login</button>
+														<button class="btn btn-1" type="submit">Entrar</button>
 														</li>
 														<li class="clearfix">
-														<a class="action btn btn-3" href="./register.html">Create an account</a>
+														<a class="action btn btn-3" href="./register.html">Criar conta</a>
 														</li>
 													</ul>
 												</form>
 											</div>
 										</li>
-										<li class="toolbar-customer my-wishlist logged-wishlist"><a href="./page-wishlist.html">My Wishlist</a></li>
-										<li id="cart-target" class="toolbar-cart hidden-xs">
-											<a href="/cart" class="cart dropdown-toggle dropdown-link" data-toggle="dropdown" title="Shopping Cart">
-												<i class="sub-dropdown1 visible-sm visible-md visible-lg"></i>
-												<i class="sub-dropdown visible-sm visible-md visible-lg"></i>
-												<div class="num-items-in-cart have-item">
-													<div class="block-cart">
-														<i class="fa fa-shopping-basket" aria-hidden="true"></i>
-														<span class="icon">
-														<span class="number">3 items - </span>
-														<span class="cart-total"><span class="money">$500.00</span></span>
-														</span>
-													</div>
-												</div>
-											</a>
-											<div id="cart-info" class="dropdown-menu" style="display: none;">
-												<div id="cart-content">
-													<div class="items control-container">
-														<div class="row">
-															<a class="cart-close" title="Remove" href="javascript:void(0);" onclick="#"><i class="fa fa-times"></i></a>
-															<div class="cart-left">
-																<a class="cart-image" href="./cart.html"><img src="./assets/images/150x150.jpg" alt="" title=""></a>
-															</div>
-															<div class="cart-right">
-																<div class="cart-title">
-																	<a href="/products/full3-donec-justo-condimentum?variant=23854937862">GANT, red duffle - black / S</a>
-																</div>
-																<div class="cart-price">
-																	<span class="money" data-currency-usd="$200.00" data-currency="USD">$200.00</span><span class="x"> x2</span>
-																</div>
-															</div>
-														</div>
-														<div class="row">
-															<a class="cart-close" title="Remove" href="javascript:void(0);" onclick="#"><i class="fa fa-times"></i></a>
-															<div class="cart-left">
-																<a class="cart-image" href="./cart.html"><img src="./assets/images/150x150.jpg" alt="" title=""></a>
-															</div>
-															<div class="cart-right">
-																<div class="cart-title">
-																	<a href="/products/full3-donec-justo-condimentum?variant=23854937862">GANT, red duffle - blue / S</a>
-																</div>
-																<div class="cart-price">
-																	<span class="money" data-currency-usd="$200.00" data-currency="USD">$100.00</span><span class="x"> x1</span>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="subtotal">
-														<span>Subtotal:</span><span class="cart-total-right money">$500.00</span>
-													</div>
-													<div class="action">
-														<button class="btn btn-3 float-right" onclick="window.location='./cart.html'">CHECKOUT<i class="fa fa-caret-right"></i></button>
-														<button class="btn btn-2" onclick="window.location='./cart.html'">View Cart<i class="fa fa-caret-right"></i></button>
-													</div>
-												</div>
-											</div>
-										</li>
+										<li class="toolbar-customer my-wishlist logged-wishlist"><a href="./page-wishlist.html">Lista de desejos</a></li>
 									</ul>
 								</div>
 								<div class="bottom-area">
-									<div class="currency_group hidden-xs">
-										<div class="currencies-switcher">
-											<div class="currency btn-group uppercase">
-												<a class="currency_wrapper dropdown-toggle" data-toggle="dropdown">
-												<i class="sub-dropdown1 visible-sm visible-md visible-lg"></i>
-												<i class="sub-dropdown visible-sm visible-md visible-lg"></i>
-												<span class="currency_code heading hidden-xs">USD</span>
-												<span class="currency_code visible-xs">USD</span>
-												<i class="fa fa-caret-down"></i>
-												</a>
-												<ul class="currencies dropdown-menu text-left">
-													<li class="currency-USD active">
-													<a href="javascript:;">USD</a>
-													<input type="hidden" value="USD">
-													</li>
-													<li class="currency-EUR">
-													<a href="javascript:;">EUR</a>
-													<input type="hidden" value="EUR">
-													</li>
-													<li class="currency-GBP">
-													<a href="javascript:;">GBP</a>
-													<input type="hidden" value="GBP">
-													</li>
-													<li class="currency-JPY">
-													<a href="javascript:;">JPY</a>
-													<input type="hidden" value="JPY">
-													</li>
-													<li class="currency-CAD">
-													<a href="javascript:;">CAD</a>
-													<input type="hidden" value="CAD">
-													</li>
-												</ul>
-												<select class="currencies_src hide" name="currencies">
-													<option value="USD" selected="selected">USD</option>
-													<option value="EUR">EUR</option>
-													<option value="GBP">GBP</option>
-													<option value="JPY">JPY</option>
-													<option value="CAD">CAD</option>
-												</select>
-											</div>
-										</div>
-									</div>
 									<div class="search-field">
 										<div id="search-info" class="search-info">
 											<form class="search" action="./search.html">
 												<input type="hidden" name="type" value="product">
-												<input type="text" name="q" class="search_box" placeholder="Search" value="">
+												<input type="text" name="q" class="search_box" placeholder="Buscar no site" value="">
 												<span id="go"><i class="fa fa-search" aria-hidden="true"></i></span>
 											</form>
 										</div>
