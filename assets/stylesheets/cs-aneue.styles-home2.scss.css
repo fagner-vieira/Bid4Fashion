@@ -8331,3 +8331,7 @@ footer .copy-right .copy-right-wrapper .copy-right-inner .right-area ul.credit-c
 .home_blog_wrapper .home_blog_inner .home_blog-content .homeblog-item>div.right-area .homeblog-action a i.fa {
     padding-left: 5px
 }
+
+.carousel-control.left, .carousel-control.right{
+    background-image: none;
+}
