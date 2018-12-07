@@ -20,10 +20,12 @@
 	<link href="./assets/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
 	<link href="./assets/stylesheets/animate.min.css" rel="stylesheet" type="text/css" media="all">
 	<link href="./assets/stylesheets/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./assets/stylesheets/social-buttons.scss.css" rel="stylesheet" type="text/css" media="all">
 	<link href="./assets/stylesheets/spr.css" rel="stylesheet" type="text/css" media="all">
 	<link href="./assets/stylesheets/cs-aneue.global.scss.css" rel="stylesheet" type="text/css" media="all">
 	<link href="./assets/stylesheets/cs-aneue.styles-home2.scss.css" rel="stylesheet" type="text/css" media="all">
 	<link href="./assets/stylesheets/layerslider.css" rel="stylesheet" type="text/css" media="all">
+
 	
 	<script src="./assets/javascripts/html5shiv.js" type="text/javascript"></script>	
 	<script src="./assets/javascripts/jquery.min.js" type="text/javascript"></script>	
