@@ -2,6 +2,9 @@
   
 	<!-- Main Content -->
 	<div id="main-content" class="wrapper clearfix">   
+
+ 
+
 		<section class="product-detail-content">
 			<div class="detail-content-wrapper">
 				<div class="container">
@@ -15,6 +18,9 @@
 										<div class="collection-description col-sm-12">
 											<div class="description-title home-title">
 												<h5>Collection with Box mode</h5>
+											</div>
+											<div class="collection-image col-sm-12">
+												<img src="./assets/images/1025x235.jpg" alt="Collection with Box mode">
 											</div>
 										</div>
 										<!-- Fim Titulo -->

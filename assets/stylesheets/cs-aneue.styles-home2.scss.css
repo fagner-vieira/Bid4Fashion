@@ -9332,3 +9332,17 @@ footer .copy-right .copy-right-wrapper .copy-right-inner .right-area ul.credit-c
     filter: alpha(opacity=70);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$var2)"
 }
+
+.collection-banner .collection-banner-wrapper .description-content,
+.collection-banner .collection-banner-wrapper .collection-image {
+    text-align: center
+}
+
+.collection-banner .collection-banner-wrapper .collection-image {
+    margin-top: 10px;
+
+}
+
+.collection-image{
+    margin-bottom: 5%;
+}
