@@ -9346,3 +9346,151 @@ footer .copy-right .copy-right-wrapper .copy-right-inner .right-area ul.credit-c
 .collection-image{
     margin-bottom: 5%;
 }
+
+.login-content .login-content-wrapper .login-content-block {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner {
+    padding: 50px 0;
+    background: #fff;
+    display: inline-block;
+    *display: block;
+    zoom: 1;
+    width: 100%
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner>div .title {
+    text-transform: uppercase
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #customer_login {
+    position: relative
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #customer_login .customer-login-wrapper {
+    background: #fafafa
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #customer_login label {
+    width: 100%;
+    padding: 0;
+    display: block;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #141414;
+    font-size: 100%;
+    line-height: 14px
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #customer_login input.text {
+    margin-bottom: 18px;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #customer_login .errors {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 15px;
+    margin-top: -35px
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #customer_login .errors>ul {
+    margin: 0 0 30px 0;
+    color: red
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #customer_login .action_bottom .btn {
+    text-transform: uppercase;
+    color: #fff;
+    background: #000;
+    border: 1px solid #000
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #customer_login .action_bottom .btn:hover {
+    color: #fff;
+    background: #ff6464;
+    border: 1px solid #ff6464
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #customer-register .customer-register-wrapper {
+    background: #fafafa;
+    padding: 50px
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #customer-register .customer-register-wrapper input {
+    height: 50px;
+    line-height: 50px;
+    width: 100%
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #customer-register .customer-register-wrapper .action_bottom input {
+    width: auto;
+    text-transform: uppercase
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #customer-register .customer-register-wrapper label {
+    width: 100%;
+    padding: 0;
+    display: block;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #141414;
+    font-size: 100%;
+    line-height: 14px
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #customer-login .customer-login-wrapper {
+    background: #fafafa;
+    padding: 50px
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #recover-password {
+    padding: 50px 15px;
+    background: #fff
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #recover-password form {
+    width: 50%
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #recover-password form label {
+    width: 100%;
+    padding: 0;
+    display: block;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #141414;
+    font-size: 100%;
+    line-height: 14px
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #recover-password form input.text {
+    margin-bottom: 18px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #141414;
+    padding: 10px
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #recover-password form .action_bottom .btn {
+    text-transform: uppercase;
+    color: #fff;
+    background: #ff6464;
+    border: 1px solid #ff6464
+}
+
+.login-content .login-content-wrapper .login-content-block .login-content-inner #recover-password form .action_bottom .btn:hover {
+    color: #fff;
+    background: #000;
+    border: 1px solid #000
+}
