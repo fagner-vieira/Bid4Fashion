@@ -25,6 +25,8 @@
 	<link href="./assets/stylesheets/cs-aneue.global.scss.css" rel="stylesheet" type="text/css" media="all">
 	<link href="./assets/stylesheets/cs-aneue.styles-home2.scss.css" rel="stylesheet" type="text/css" media="all">
 	<link href="./assets/stylesheets/layerslider.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./assets/slick/slick.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./assets/slick/slick-theme.css" rel="stylesheet" type="text/css" media="all">
 
 	
 	<script src="./assets/javascripts/html5shiv.js" type="text/javascript"></script>	
@@ -38,9 +40,11 @@
 	<script src="./assets/javascripts/isotope.pkgd.min.js" type="text/javascript"></script>
 	<script src="./assets/javascripts/imagesloaded.pkgd.min.js" type="text/javascript"></script>	
 	<script src="./assets/javascripts/jquery.cookie.js" type="text/javascript"></script>
+	<script src="./assets/javascripts/jquery.elevatezoom.min.js" type="text/javascript"></script>
 	<script src="./assets/javascripts/greensock.js" type="text/javascript"></script>
 	<script src="./assets/javascripts/layerslider.transitions.js" type="text/javascript"></script>
 	<script src="./assets/javascripts/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>	
+	<script src="./assets/slick/slick.min.js" type="text/javascript"></script>
 </head>
 
 <body class="index-template notouch">

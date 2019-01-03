@@ -11,38 +11,61 @@
 							<div class="detail-content-inner">          
 								<div id="product" class="collette-alligator-clutch-gray-1 detail-content product-full1">
 									<div class="col-md-12 clearfix info-detail-pro">
-										<div class="col-md-5 product-image" id="product-image">            
-											<div id="featuted-image" class="image featured">
-												<a href="assets/images/480x480.jpg" class="zoom" id="placeholder">
-													<img src="assets/images/480x480.jpg" alt="Collette, alligator clutch gray">
-												</a>                                        
-											</div>                 
-											<div id="gallery-images-mobile" class="thumbs clearfix">
-												<div class="vertical-slider">
-													<div class="image">
-														<a href="assets/images/150x150.jpg" class="thumb_image active">
-														  <img src="assets/images/150x150.jpg">
-														</a>
-													</div>
-													<div class="image">
-														<a href="assets/images/150x150.jpg" class="thumb_image">
-														  <img src="assets/images/150x150.jpg">
-														</a>
-													</div>
-													<div class="image">
-														<a href="assets/images/150x150.jpg" class="thumb_image">
-														  <img src="assets/images/150x150.jpg">
-														</a>
-													</div>
-													<div class="image">
-														<a href="assets/images/150x150.jpg">
-														  <img src="assets/images/150x150.jpg" class="thumb_image">
-														</a>
-													</div>
-												</div>	
-											</div>                    
+										<div class="col-md-6 product-image" id="product-image">
+                                            <div class="row">
+                                                <div class="col-xs-2">
+                                                    <div class="slider slider-nav">
+                                                        <div>
+                                                            <img src="assets/images/150x150.jpg">
+                                                        </div>
+                                                        <div>
+                                                            <img src="assets/images/150x150.jpg">
+                                                        </div>
+                                                        <div>
+                                                            <img src="assets/images/150x150.jpg">
+                                                        </div>
+                                                        <div>
+                                                            <img src="assets/images/150x150.jpg">
+                                                        </div>
+                                                        <div>
+                                                            <img src="assets/images/150x150.jpg">
+                                                        </div>
+                                                        <div>
+                                                            <img src="assets/images/150x150.jpg">
+                                                        </div>
+                                                        <div>
+                                                            <img src="assets/images/150x150.jpg">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-10">
+                                                    <div class="slider slider-for">
+                                                        <div>
+                                                            <img id="zoom_03" src="assets/images/480x480.jpg" data-zoom-image="assets/images/670x670.jpg">
+                                                        </div>
+                                                        <div>
+                                                            <img id="zoom_03" src="assets/images/480x480.jpg" data-zoom-image="assets/images/670x670.jpg">
+                                                        </div>
+                                                        <div>
+                                                            <img id="zoom_03" src="assets/images/480x480.jpg" data-zoom-image="assets/images/670x670.jpg">
+                                                        </div>
+                                                        <div>
+                                                            <img id="zoom_03" src="assets/images/480x480.jpg" data-zoom-image="assets/images/670x670.jpg">
+                                                        </div>
+                                                        <div>
+                                                            <img id="zoom_03" src="assets/images/480x480.jpg" data-zoom-image="assets/images/670x670.jpg">
+                                                        </div>
+                                                        <div>
+                                                            <img id="zoom_03" src="assets/images/480x480.jpg" data-zoom-image="assets/images/670x670.jpg">
+                                                        </div>
+                                                        <div>
+                                                            <img id="zoom_03" src="assets/images/480x480.jpg" data-zoom-image="assets/images/670x670.jpg">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
 										</div>
-										<div class="col-md-7" id="product-information">  
+										<div class="col-md-6" id="product-information">
 											<form id="add-item-form" action="#" method="post" class="variants clearfix">
 												<div class="product-options no-options ">
 													<h1 class="title">Product Page Full width #1</h1>                      
@@ -726,5 +749,30 @@
 				</div>
 			</div>
 		</section>       
-	</div>  
+	</div>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider-for').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: true,
+                asNavFor: '.slider-nav'
+            });
+            $('.slider-nav').slick({
+                vertical: true,
+                verticalSwiping: true,
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for',
+                dots: false,
+                arrows: true,
+                centerMode: false,
+                focusOnSelect: true
+            });
+        });
+
+        $("#zoom_03").elevateZoom({constrainType:"height", constrainSize:274, zoomType: "lens", containLensZoom: true, gallery:'gallery_01', cursor: 'pointer', galleryActiveClass: "active"});
+    </script>
 	<?php include 'footer.php'; ?>
