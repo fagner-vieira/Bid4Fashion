@@ -19,8 +19,17 @@
 										</div>
 										<!-- Fim Titulo -->
 										<div class="collection-description col-sm-12">
-											<div class="description-title home-title">
-												<img src="./assets/images/870x150.jpg" class="img-responsive" alt="">
+											<div class="description-title home-titleB">
+												<div class="row">
+													<div class="col-lg-8">
+														<p class="tituloMarcas">Collection with Box mode</p>
+														<p class="txtMarcas">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in faucibus tellus. Nulla suscipit purus at est imperdiet vestibulum. Nulla nec purus gravida, tincidunt eros ac, lobortis dolor. </p>
+													</div>
+													<div class="col-lg-4">
+														<img src="./assets/images/120x120.jpg" class="img-responsive center-block" alt="">
+													</div>
+													
+												</div>
 											</div>
 										</div>
 										<!-- Listagem de produtos -->
